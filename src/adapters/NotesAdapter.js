@@ -4,7 +4,8 @@ class NotesAdapter {
   }
 
   getNotes() {
-    return fetch(this.baseUrl).then(res => res.json()
+    return fetch(this.baseUrl)
+    .then(res => res.json()
     )
   }
 }
